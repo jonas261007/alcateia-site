@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+body {
+  background-color: #09090b;
+  font-family: "Roboto Mono", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+.shadows-flame {
+  /* Sombra */
+  box-shadow: 2.8px 2.8px 2.2px rgba(220, 38, 38, 0.032),
+    6.7px 6.7px 5.3px rgba(220, 38, 38, 0.051),
+    12.5px 12.5px 10px rgba(220, 38, 38, 0.069),
+    22.3px 22.3px 17.9px rgba(245, 158, 11, 0.087),
+    41.8px 41.8px 33.4px rgba(245, 158, 11, 0.11),
+    100px 100px 80px rgba(245, 158, 11, 0.16);
+}
